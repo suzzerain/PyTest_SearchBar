@@ -11,6 +11,7 @@ class DuckDuckGoResultPage:
 
     @classmethod
     #Статический метод PHRASE_RESULTS()
+
     def PHRASE_RESULTS(cls, phrase):
         xpath = f"//li[@data-layout='organic']//a[contains(@href,'{phrase}')]"
         return (By.XPATH, xpath)

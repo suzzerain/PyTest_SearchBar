@@ -12,6 +12,7 @@ def browser():
 
 def test_basic_duckduckgo_search(browser):
     # Данные для тест-кейса
+
     PHRASE = 'Lithuania'
 
     # Поиск фразы

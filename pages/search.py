@@ -13,7 +13,7 @@ class DuckDuckGoSearchPage:
 
     # Метод для загрузки страницы поиска
     def load(self):
-        self.browser.get(self.URL) # Вызов метода .get браузера для открытия страницы
+        self.browser.get(self.URL) # вызов метода .get браузера для открытия страницы
 
     # Метод для выполнения поискового запроса
     def search(self, phrase):
